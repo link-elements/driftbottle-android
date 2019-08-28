@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">漂流瓶瓶</string>
+    <string name="app_tip">提示</string>
+    <string name="title_activity_webview_active">Webview_active</string>
+    <string name="pay_result_tip">app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+</resources>
