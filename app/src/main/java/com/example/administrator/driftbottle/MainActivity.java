@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
          initSetWebView(settings);
          webview.addJavascriptInterface(new JsInteration(), "android");
     //     webview.loadUrl("http://192.168.45.2:3005/");
-         webview.loadUrl("https://test.i8q.cn/");
+         webview.loadUrl("https://www.i8q.cn/");
          webview.setWebViewClient(new WebViewClient(){
                 @Override
                 public boolean shouldOverrideUrlLoading(WebView view, String url){
@@ -306,7 +306,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             ua.put("version", BuildConfig.VERSION_NAME);
             ua.put("versionCode", BuildConfig.VERSION_CODE);
-            ua.put("channel", "yingyongbao"); //interior oppo  vivo   xiaomi  360 huawei    taobao     baidu   yingyongbao
+            ua.put("channel", "interior"); //interior oppo  vivo   xiaomi  360 huawei    taobao     baidu   yingyongbao  meizu  chuizi
         } catch (Exception e) {}
         settings.setUserAgentString(userAgent + "-drift-bottle -> " + ua.toString());
     }
